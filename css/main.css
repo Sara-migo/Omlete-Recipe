@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255 228 196 / 40%);
+}
+.heading{
+    width: 650px;
+    background-color: white;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.heading .image{
+    position: relative;
+}
+.heading .image img{
+    margin:15px;
+    width:600px;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.heading .image h1{
+    text-align: left;
+    margin: 0 0 0 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.heading .image p{
+    color: #777;
+    /* line-height: 1.6; */
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.heading .preparation{
+    margin: 0 16px;
+    background-color: rgb(255 192 203 / 20%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.heading .preparation h3{
+    margin: 0 12px 15px;
+    padding: 15px 15px 0;
+    color: #E53935;
+}
+
+.heading .preparation li{
+    padding: 10px;
+}
+
+.heading .preparation li::marker{
+    color:#E53935 ;
+}
+
+.heading .ingredients{
+    margin: 0 16px;
+    border-bottom: solid 1px #eee;
+}
+.heading .ingredients h2{
+    color: brown;
+    font-size: 30px;
+}
+
+.heading .ingredients li{
+    padding: 8px;
+    margin: 0 -25px;
+}
+
+.heading .ingredients li::marker {
+    color: brown;
+}
+
+.heading .instructions{
+    margin: 0 16px;
+    border-bottom: solid 1px #eee;
+}
+
+.heading .instructions h2{
+    color: brown;
+    font-size: 30px;   
+    margin-bottom: 0;
+}
+
+.heading .instructions li{
+    padding: 8px 8px 4px;
+    margin: 0 -25px;
+    list-style-type: decimal;
+    color:#777
+}
+.heading .instructions li span{
+    color: black;
+    font-weight: bold;
+}
+
+.heading .instructions li::marker{
+    color:brown ;
+    font-weight: bold;
+}
+
+.heading .nutrition{
+    margin: 0 16px;
+}
+.heading .nutrition h2{
+    color: brown;
+    font-size: 30px;   
+    margin-bottom: 0;
+}
+
+.heading .nutrition p{
+    color: #777;
+}
+
+.heading .nutrition .calories div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading .nutrition .calories div:not(:last-child){
+    border-bottom: solid 1px #eee;
+}
+
+.heading .nutrition .calories div:last-child{
+    padding-bottom: 20px;
+}
+
+.heading .nutrition .calories span{
+    display: block;
+    margin: auto;
+    color: brown;
+}
+
+.heading .nutrition .calories div p{
+    padding-left: 20px;
+}
+
+
+/* .heading .nutrition .div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading .nutrition .div span{
+    display: block;
+} */
